@@ -1,0 +1,10 @@
+/temp/
+/logo/
+/screenshots/
+/TODOs.txt
+
+/.vscode/
+/node_modules/
+/vsc-extension-quickstart.md
+/package-lock.json
+/*.vsix

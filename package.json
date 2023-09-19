@@ -1,0 +1,67 @@
+{
+  "name": "fast-gulp",
+  "displayName": "Fast Gulp",
+  "description": "A simple extension that runs \"gulp\" command and stops it using the status bar item",
+  "version": "0.0.1",
+  "author": {
+    "name": "Hamidreza Zamanian",
+    "email": "zmn-hamid@proton.me",
+    "url": "https://linktr.ee/zmn.hamid"
+  },
+  "publisher": "HamidrezaZamanian",
+  "icon": "logo/FastGulp.png",
+  "license": "MIT",
+  "keywords": [
+    "VSCode",
+    "Extension",
+    "GULP",
+    "Tasks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmn-hamid/GulpRun"
+  },
+  "bugs": {
+    "url": "https://github.com/zmn-hamid/GulpRun/issues"
+  },
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "fast-gulp.startGulp",
+        "title": "fast-gulp: Start Gulp"
+      },
+      {
+        "command": "fast-gulp.stopGulp",
+        "title": "fast-gulp: Stop Gulp"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.82.0",
+    "@vscode/test-electron": "^2.3.4",
+    "eslint": "^8.47.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "tree-kill": "^1.2.2"
+  }
+}
