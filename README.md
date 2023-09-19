@@ -6,7 +6,7 @@ This extension is simply runs/stops 'gulp' as a shell command from status bar. T
 
 Simply start/stop gulp using the status bar item, as shown bellow:
 
-[sample video](https://github.com/zmn-hamid/fast-gulp/assets/129656474/d4828ea2-65fa-4c26-81bc-cac015017145)
+[sample video](https://github.com/zmn-hamid/fast-gulp/assets/129656474/e73c49d6-5c3c-47e6-ba9d-4701984d2c3c)
 
 As you see you can choose "gulp" from bottom right, which will start gulp and shows logs. By clicking that again, the gulp command will stop.
 
