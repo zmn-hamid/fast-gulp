@@ -8,6 +8,8 @@ vsc-extension-quickstart.md
 **/*.map
 **/.eslintrc.json
 
-/temp/
-/screenshots/
-/TODOs.txt
+temp/**
+screenshots/**
+TODOs.txt
+logo/FastGulpGithub.jpg
+logo/FastGulp.svg

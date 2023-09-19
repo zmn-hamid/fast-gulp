@@ -16,8 +16,6 @@ You can also start/stop using Command Palette (CTRL+SHIFT+P on Windows), and typ
 
 You have to install gulp globally using `npm install -g gulp`.
 
-You also have to install node modules using `npm install` if you're using this repo.
-
 ## License
 
 MIT License
@@ -28,7 +26,7 @@ This project is free and open-source. You can use, modify, and distribute it wit
 
 If you have any questions or feedback about this project, feel free to get in touch with me:
 
-- [GitHub Issues](https://github.com/zmn-hamid/GulpRun/issues)
+- [GitHub Issues](https://github.com/zmn-hamid/fast-gulp/issues)
 - zmn-hamid@proton.me
 - [Telegram](https://t.me/hamid1780)
 - [Linktree](https://linktr.ee/zmn.hamid)

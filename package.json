@@ -19,10 +19,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zmn-hamid/GulpRun"
+    "url": "https://github.com/zmn-hamid/fast-gulp"
   },
   "bugs": {
-    "url": "https://github.com/zmn-hamid/GulpRun/issues"
+    "url": "https://github.com/zmn-hamid/fast-gulp/issues"
   },
   "engines": {
     "vscode": "^1.82.0"
