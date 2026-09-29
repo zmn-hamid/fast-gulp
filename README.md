@@ -1,5 +1,7 @@
 # Fast Gulp README
 
+> **Disclaimer:** This project is almost fully AI-generated.
+
 This extension is simply runs/stops 'gulp' as a shell command from status bar. The real-time output is shown in a dedicated output channel.
 
 ## Features
